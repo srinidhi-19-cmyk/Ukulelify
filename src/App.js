@@ -4,6 +4,7 @@ import Search from './pages/Search';
 import Tuner from './pages/Tuner';
 import ChordVisualizer from './pages/ChordVisualizer';
 import Progress from './pages/Progress';
+import SongDetail from './pages/SongDetail';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </nav>
 
       <Routes>
+        <Route path="/song" element={<SongDetail />} />
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
         <Route path="/tuner" element={<Tuner />} />
