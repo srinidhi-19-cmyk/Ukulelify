@@ -1,0 +1,28 @@
+const songs = [
+  { name: 'Apna Bane Le Piya', artist: 'Arjit Singh', language: 'Hindi', chords: 'C-D-Am-Em-G', difficulty: 'INTERMEDIATE', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Tum Se Hi', artist: 'Mohit Chauhan', language: 'Hindi', chords: 'C-F-G', difficulty: 'EASY', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Agar Tum Saath Ho', artist: 'Arjit Singh', language: 'Hindi', chords: 'C-F-G', difficulty: 'EASY', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Ishq Wala Love', artist: 'Vishal & Shekhar', language: 'Hindi', chords: 'Em-Am-D-G-A', difficulty: 'INTERMEDIATE', key: 'E minor', youtube: 'https://youtu.be/your-link' },
+  { name: 'Husn', artist: 'Anuv Jain', language: 'Hindi', chords: 'C-Am-F-G-E7', difficulty: 'INTERMEDIATE', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Sahiba', artist: 'Adithya Rikhari', language: 'Hindi', chords: 'Am-F-G', difficulty: 'EASY', key: 'A minor', youtube: 'https://youtu.be/your-link' },
+  { name: 'Paro', artist: 'Adithya Rikhari', language: 'Hindi', chords: 'Am-F-Dm-G', difficulty: 'INTERMEDIATE', key: 'A minor', youtube: 'https://youtu.be/your-link' },
+  { name: 'Finding Her', artist: 'Kushagra', language: 'Hindi', chords: 'C-Am-Dm-G', difficulty: 'INTERMEDIATE', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Sawaar Loo', artist: 'Monali Thakur', language: 'Hindi', chords: 'D-G-A', difficulty: 'EASY', key: 'D major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Yeh Raatein Yeh Mausam', artist: 'Simran Sehgal', language: 'Hindi', chords: 'C-A-F-Dm-Gm', difficulty: 'INTERMEDIATE', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Zara Zara', artist: 'Alka Yagnik', language: 'Hindi', chords: 'Am-Dm-Em-F-G', difficulty: 'HARD', key: 'A minor', youtube: 'https://youtu.be/your-link' },
+  { name: 'Kesariya', artist: 'Arijit Singh', language: 'Hindi', chords: 'C-F-G-Em', difficulty: 'INTERMEDIATE', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Pasoori', artist: 'Ali Sethi', language: 'Hindi', chords: 'Am-G-E-D-Dm-F-C', difficulty: 'HARD', key: 'A minor', youtube: 'https://youtu.be/your-link' },
+  { name: 'Kabhi Kabh Aditi', artist: 'A.R.Rahman', language: 'Hindi', chords: 'Am-Bm-F-G', difficulty: 'INTERMEDIATE', key: 'A minor', youtube: 'https://youtu.be/your-link' },
+  { name: 'Samayama', artist: 'Hesham Abdul', language: 'Telugu', chords: 'Dm-F-G', difficulty: 'EASY', key: 'D minor', youtube: 'https://youtu.be/your-link' },
+  { name: 'Kadalalle', artist: 'Sid Sriram', language: 'Telugu', chords: 'C-G-D', difficulty: 'EASY', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Endhayya Saami', artist: 'Ajay-Atul', language: 'Telugu', chords: 'C-Am-F-G', difficulty: 'INTERMEDIATE', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Mallika Gandha', artist: 'Sid Sriram', language: 'Telugu', chords: 'Cm-F-Gm', difficulty: 'EASY', key: 'C minor', youtube: 'https://youtu.be/your-link' },
+  { name: 'Chinni Chinni Aasa', artist: 'A.R.Rahman', language: 'Telugu', chords: 'C-Am-F-G', difficulty: 'INTERMEDIATE', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Yamuna Thatilo', artist: 'Shobana', language: 'Telugu', chords: 'C-Am-F-G', difficulty: 'EASY', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Ammaadi', artist: 'Hesham Abdul', language: 'Telugu', chords: 'G-C-Em-D', difficulty: 'EASY', key: 'G major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Aa Seethadevi Navvula', artist: 'Arjit Singh', language: 'Telugu', chords: 'G-A7-C', difficulty: 'INTERMEDIATE', key: 'G major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Sooseki', artist: 'Shreya Ghoshal', language: 'Telugu', chords: 'C-F-Dm', difficulty: 'EASY', key: 'C major', youtube: 'https://youtu.be/your-link' },
+  { name: 'Sarimapa', artist: 'Jakes Bejoy', language: 'Telugu', chords: 'F-Dm', difficulty: 'EASY', key: 'F major', youtube: 'https://youtu.be/your-link' },
+];
+
+export default songs;
