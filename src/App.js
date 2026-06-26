@@ -5,6 +5,8 @@ import Tuner from './pages/Tuner';
 import ChordVisualizer from './pages/ChordVisualizer';
 import Progress from './pages/Progress';
 import SongDetail from './pages/SongDetail';
+import ChordSimplifier from './pages/ChordSimplifier';
+import Reminders from './pages/Reminders';
 
 function Navbar() {
   const location = useLocation();
@@ -15,6 +17,8 @@ function Navbar() {
     { path: '/tuner', label: '🎸 Tuner' },
     { path: '/chords', label: '🎼 Chords' },
     { path: '/progress', label: '📈 Progress' },
+    { path: '/simplifier', label: '🔁 Simplifier' },
+    { path: '/reminders', label: '⏰ Reminders' },
   ];
 
   return (
@@ -45,11 +49,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/simplifier" element={<ChordSimplifier />} />
         <Route path="/search" element={<Search />} />
         <Route path="/tuner" element={<Tuner />} />
         <Route path="/chords" element={<ChordVisualizer />} />
         <Route path="/progress" element={<Progress />} />
         <Route path="/song" element={<SongDetail />} />
+        <Route path="/reminders" element={<Reminders />} />
       </Routes>
     </BrowserRouter>
   );
