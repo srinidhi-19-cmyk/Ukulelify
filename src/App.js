@@ -7,6 +7,7 @@ import Progress from './pages/Progress';
 import SongDetail from './pages/SongDetail';
 import ChordSimplifier from './pages/ChordSimplifier';
 import Reminders from './pages/Reminders';
+import Settings from './pages/Settings';
 
 function Navbar() {
   const location = useLocation();
@@ -18,7 +19,7 @@ function Navbar() {
     { path: '/chords', label: '🎼 Chords' },
     { path: '/progress', label: '📈 Progress' },
     { path: '/simplifier', label: '🔁 Simplifier' },
-    { path: '/reminders', label: '⏰ Reminders' },
+    { path: '/settings', label: '⚙️ Settings' },
   ];
 
   return (
@@ -56,6 +57,7 @@ function App() {
         <Route path="/progress" element={<Progress />} />
         <Route path="/song" element={<SongDetail />} />
         <Route path="/reminders" element={<Reminders />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
     </BrowserRouter>
   );
